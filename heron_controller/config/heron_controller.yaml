@@ -1,0 +1,29 @@
+# Tuning for the Heron PID controller.
+
+fwd_vel:
+  kf: 20
+  kp: 150
+  ki: 40
+  kd: 130
+  imax: 25.0
+  imin: -25.0
+
+yaw_rate:
+  kf: 60
+  kp: 220
+  ki: 65.0
+  kd: 60
+  imax: 20.0
+  imin: -20.0
+
+yaw:
+  kf: 0
+  kp: 0.3
+  ki: 0
+  kd: 0
+  imax: 0.0
+  imin: 0.0
+
+max:
+  fwd_vel: 3.0
+  bck_vel: 0.5
